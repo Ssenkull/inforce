@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import  ReactDOM  from 'react-dom';
+
 import './Modal.css';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
@@ -108,7 +108,7 @@ console.log(id)
                 </Stack>
                 </div>
                 <div className="buttons">
-                    <button className='cancel-btn' onClick={()=>openHandler()}>CANCEL</button>
+                    <button className='cancel-btn' onClick={()=>openHandler()}>Cancel</button>
                     <Button variant="contained" onClick={()=>{editData()}} >Add</Button>
                 </div>
                 </div>

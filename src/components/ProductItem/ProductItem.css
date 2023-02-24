@@ -6,7 +6,51 @@
   border-bottom: 1px solid #ccc;
 }
 
+.product-item__name::first-letter{
+  text-transform: uppercase;
+}
+
+.product-item__name{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.product-item__count,
+.product-item__weight{
+  font-size: 22px;
+  font-weight: 600;
+}
+
 .product-item__img{
-    width: 350px;
-    height: 350px;
+    width: 650px;
+    height: 450px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.delete-btn{
+    margin-left: 15px;
+    border: none;
+    background-color: rgb(209, 41, 41);
+    border-radius: 5px;
+    color: #fff;
+    width: 58px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    border: none;
+    background-color: rgb(221, 196, 32);
+    border-radius: 5px;
+    color: #fff;
+    width: 58px;
+    height: 30px;
+    cursor: pointer;
 }

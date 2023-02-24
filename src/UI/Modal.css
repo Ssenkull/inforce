@@ -54,6 +54,7 @@
   }
 
   .cancel-btn {
+    text-transform: uppercase;
     margin-right: 15px;
     border: none;
     background-color: rgb(209, 41, 41);
