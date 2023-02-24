@@ -1,0 +1,12 @@
+.product-item{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.product-item__img{
+    width: 350px;
+    height: 350px;
+}
