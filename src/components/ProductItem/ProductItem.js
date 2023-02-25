@@ -24,6 +24,7 @@ const ProductItem = (props) => {
         console.log(response);
         console.log(props.id);
         console.log("DELETED");
+        props.setUpdate(!props.update)
       };
 
 
