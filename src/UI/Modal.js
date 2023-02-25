@@ -12,6 +12,8 @@ const AddItem = ({openHandler}) => {
 
     
 
+    
+
 
     const sendData = async () => {
         await fetch('https://inforce-57194-default-rtdb.europe-west1.firebasedatabase.app/goods.json', {
